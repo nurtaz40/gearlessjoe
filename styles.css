@@ -1,0 +1,374 @@
+body{
+    font-family: "Montserrat";
+    margin-right: 0;
+}
+#title{
+    background-color:#000000;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+line-height: 1.5;
+font-size: 3.5rem;
+}
+/* media query */
+@media (max-width:900px) {
+    h1{
+        font-size: 2rem;
+        z-index: 1;   
+    }
+    .gearless-joe{
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        z-index: 0;
+        width: 50%;
+
+    }
+    button{
+        position: relative;
+        top: 100%;
+        z-index: 1;
+        background-color: #C70039;
+        color: #C70039;
+    }
+    .logos{
+        height: 22%;
+        width: 22%;
+    }
+    
+}
+
+#pokemon{
+    font-family: 'Hind Siliguri', sans-serif;font-weight: 700;
+    position: relative;
+    
+}
+.z-up{
+    position: relative;
+    z-index: 1;
+}
+.z-up2{
+    position: relative;
+    z-index: 2;
+}
+.z-down{
+    position: 
+    z-index:0;
+}
+
+.gearless-joe{
+    position: relative;
+    z-index: 0;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 3%;
+    padding-bottom: 4.5rem ;
+}
+.navbar-brand{
+    font-family: 'Atomic Age', cursive;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: ;
+    font-weight: lighter;
+}
+
+.description{
+    position: relative;
+    /*  */
+    bottom: 10rem;
+    
+}
+/*-------------------------------------------------- Fonts */
+.crafty{
+    font-family: 'Crafty Girls', cursive;
+}
+.sacramento{
+    font-family: 'Sacramento', cursive;
+}
+.bangla{
+    font-family: 'Hind Siliguri', sans-serif;font-weight: 700;
+}
+.bangla-2{
+    font-family: 'Baloo Da 2', cursive;
+}
+
+/* -----------------------------------------------------------------------------------Button---------------------------------------------------- */
+.button-download{
+    margin: 5% 3% 0 0;
+}
+
+/* -------------------------------Image-------------------------- */
+.rotated {
+    transform: rotate(deg); /* Equal to rotateZ(45deg) */}
+    
+
+.feature{
+    text-align: center;
+    margin: 10% 10% 0 10%;
+    color:#FF5733;
+}
+#features{
+    background-color: #fff;
+    padding-top: 15rem ;
+    padding-bottom: 15rem;
+    margin: 10rem 0 10rem 0;
+}
+.fa-alien{
+    size:2rem;
+}
+h3{
+    font-family: "montserrat" ;
+    font-weight: bold;
+    color: #393E46;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+i:hover{
+    color:#C70039
+}
+
+/* ----------------------------------------Testimonial---------------------------------------  */
+ #testimonials{
+     text-align: center;
+     font-family: 'Hind Siliguri', sans-serif;font-weight: 700;
+     background-color: #393E46;
+     padding-top: 15rem ;
+    padding-bottom: 5rem;
+    margin: 0rem 0 0rem 0;
+     
+     
+    ;
+ }
+.teni{
+    width: 8%;
+    border-radius: 100%;
+}
+
+.quotes{
+    font-size: 3rem;
+}
+#press{
+    background-color: #393E46;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logos{
+    width: 11%;
+    height: 11%;
+    border-radius: 100%;
+}
+@media (max-width:750px){
+    .logos{
+        width: 20%;
+        height: 20%;
+    }
+}
+/* Pricing */
+.btn-dark:hover{
+    color: #00ADB5;
+    background-color: #EEEEEE;
+}
+.pricing-sec{
+    background-color: #EEEEEE;
+    padding: 100px 90px;
+}
+
+.batasha{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* profiles */
+.bg-none{
+    background: none;
+}
+.bg-blue{
+    background-color: #00ADB5;
+}
+.bg-cream{
+    background-color: #FEF7DC;
+}
+
+.rotate-120{
+    position: relative;
+    transform: rotate(160deg);
+    z-index: 0;
+    border-style: dotted;
+    height: 20px;
+    width: 90%;
+    border-width: 1px;
+    /* border-radius: 50%; */
+    border-top-style:dotted;
+    color: #C9E4C5;
+    margin: auto auto 40px auto
+}
+.rotate-90{
+    transform: rotate(90deg);
+    
+    
+  
+}
+.hr-vertical-right{
+    border-style: dashed;
+    width: 100%;
+    position: relative;
+    left: 45%;
+    bottom: 150%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.hr-vertical-left{
+    border-style: dashed;
+    width: 100%;
+    position: relative;
+    right: 45%;
+    bottom: 150%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.opacity-50{
+    opacity: 8%;
+}
+.margin-big1{
+    margin-top: 40%;
+}
+.margin-big2{
+    margin-top: 20%;
+}
+
+/* __________________________CTA_______ */
+
+.padded-container{
+    padding: 5% 25% 0 25%;
+}
+#cta{
+    background-color: #fff;
+}
+.rotate-60m{transform: rotate(-160deg);}
+.hr-vertical-up{
+    border-style: dashed;
+    width: 80%;
+    position: absolute;
+    color: #C9E4C5;
+    top: 720%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* footer */
+.bg-violet{
+    background-color: #311D3F;
+}
+.bg-mud{
+    background-color: #C1AC95;
+    
+}
+.bg-tia{
+    background-color: #B5CDA3;
+}
+.bg-strawberry{
+    background-color: #E23E57;
+}
+.atomic-age{
+    font-family: 'Atomic Age', cursive;
+}
+.bg-black{
+    background-color: black;
+}
+
+.margin-big3{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+/* Hiring */
+/* #hire{
+    padding: 5% 10%;
+    background-image: url(https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_900/https://animemanganews.com/wp-content/uploads/2021/05/megalo-box-2-nomad-news-2.jpg);
+}
+.text-margin{
+    padding-left: 85%;
+    padding-right: 30%;
+    
+}
+.card-hire{
+   
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: .8rem;
+    font-weight: bold;
+    
+}
+.carxy{
+    position: relative;
+    right: 20%;
+    top: 5%;
+    background: no
+}
+.texy{
+    position: relative;
+    right:30%;
+    top: 20px;
+    line-height: 2;
+}
+.card-img{
+    position: absolute;
+    z-index: -1;
+    opacity: 99%;
+    left: 0%;
+}
+
+@media (max-width:1400px) {
+    .texy{
+        height: 30%;
+        position: relative;
+        top: 70%;
+        color: #FF5733;
+    }
+    .carxy{
+        height: 30%;
+        position: relative;
+        bottom: 70%;
+
+    }
+    
+}
+@media (max-width:1000px) {
+    .texy{
+        height: 10%;
+        width: 100%;
+        display: inline-block;
+        float: right;
+        position: static;
+        top: 455%;
+        left: 500px;
+        color: #FF5733;
+        padding: 0;
+        margin: 0;
+    }
+    .carxy{
+        width: 50%;
+        height: 100%;
+        position:static;
+        top: ;
+        padding: 0;
+        margin: 0;
+
+
+    }
+    .floaty{
+        float: right;
+    }
+    
+} */
